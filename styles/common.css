@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Utilizamos Flexbox */
+  justify-content: center; /* Centramos los elementos horizontalmente */
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+section#contenido-principal {
+  padding: 2rem;
+  max-width: 1200px; /* Limitamos el ancho del contenido */
+  margin: 0 auto; /* Centramos el contenido horizontalmente */
+  display: flex; /* Utilizamos Flexbox */
+  flex-direction: column; /* Alineamos los elementos en columna */
+  align-items: center; /* Centramos los elementos verticalmente */
+}
+
+section#contenido-principal h2 {
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+/* Estilos adicionales para la sección de las imágenes en línea */
+#contenido-principal .imagenes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#contenido-principal .imagenes-container img {
+  width: calc(33.33% - 10px); /* Espacio entre imágenes */
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+section#contenido-principal p {
+  margin-bottom: 1rem;
+}
+
+/* Estilos para el formulario de suscripción */
+section#formulario {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; /* Utilizamos Flexbox */
+  flex-direction: column; /* Alineamos los elementos en columna */
+  align-items: center; /* Centramos los elementos verticalmente */
+}
+
+section#formulario h2 {
+  font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Estilos para la sección creativa */
+section#seccion-creativa {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; /* Utilizamos Flexbox */
+  flex-direction: column; /* Alineamos los elementos en columna */
+  align-items: center; /* Centramos los elementos verticalmente */
+}
+
+section#seccion-creativa h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Estilos para la sección del mapa */
+section#mapa {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; /* Utilizamos Flexbox */
+  flex-direction: column; /* Alineamos los elementos en columna */
+  align-items: center; /* Centramos los elementos verticalmente */
+}
+
+section#mapa h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.mapa-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
